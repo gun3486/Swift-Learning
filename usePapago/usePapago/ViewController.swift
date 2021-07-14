@@ -18,15 +18,19 @@ class ViewController: UIViewController {
         var params = ["source":"ko",
                      "target":"en",
                      "text":"만나서 반갑습니다."]
+        
         var header = ["Content-Type":"application/x-www-form-urlencoded; charset=UTF-8",
                       "X-Naver-Client-Id":"XFMBsaK0sLbVegx0nIJd",
                       "X-Naver-Client-Secret":"akhMj3Rfbn"]
         
-        Alamofire.request(url, method: .post, parameters: params, encoding: URLEncoding.default, headers: header).responseJSON { (response) in
-            print(response.result.value)
+        Alamofire.request(url, method: .post, parameters: params, encoding: URLEncoding.default, headers: header).responseObject{(response: DataResponse<PapagoDTO>) in
+            var papagoDTO = response.result.value
+            print(papagoDTO?.message?.result?.translandetText)
         }
     }
-
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 
 }
 

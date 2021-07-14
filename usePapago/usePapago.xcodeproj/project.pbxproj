@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		98671CC0269DB7CA003E3D37 /* usePapago.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98671CBE269DB7CA003E3D37 /* usePapago.xcdatamodeld */; };
 		98671CC2269DB7CC003E3D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98671CC1269DB7CC003E3D37 /* Assets.xcassets */; };
 		98671CC5269DB7CC003E3D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98671CC3269DB7CC003E3D37 /* LaunchScreen.storyboard */; };
+		98671CCD269ED63F003E3D37 /* PapagoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98671CCC269ED63F003E3D37 /* PapagoDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		98671CC1269DB7CC003E3D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98671CC4269DB7CC003E3D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98671CC6269DB7CC003E3D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98671CCC269ED63F003E3D37 /* PapagoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoDTO.swift; sourceTree = "<group>"; };
 		C09BBE4B07E6C176964FA3F6 /* Pods_usePapago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_usePapago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 				98671CC3269DB7CC003E3D37 /* LaunchScreen.storyboard */,
 				98671CC6269DB7CC003E3D37 /* Info.plist */,
 				98671CBE269DB7CA003E3D37 /* usePapago.xcdatamodeld */,
+				98671CCC269ED63F003E3D37 /* PapagoDTO.swift */,
 			);
 			path = usePapago;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				2157E7C331B2F8A3B1D64AFE /* Pods-usePapago.debug.xcconfig */,
 				69418DB7E503AD2255D03ADF /* Pods-usePapago.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +215,7 @@
 				98671CB6269DB7CA003E3D37 /* AppDelegate.swift in Sources */,
 				98671CB8269DB7CA003E3D37 /* SceneDelegate.swift in Sources */,
 				98671CC0269DB7CA003E3D37 /* usePapago.xcdatamodeld in Sources */,
+				98671CCD269ED63F003E3D37 /* PapagoDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
